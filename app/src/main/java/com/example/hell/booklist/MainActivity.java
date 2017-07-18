@@ -65,7 +65,7 @@ public class MainActivity extends AppCompatActivity {
                     sBookWords = keywordEditText.getText().toString();
                     searchBooks();
                 } else {
-                    Toast.makeText(MainActivity.this, "No internet Connection", Toast.LENGTH_SHORT);
+                    Toast.makeText(MainActivity.this, "No internet Connection", Toast.LENGTH_SHORT).show();
                 }
             }
         });
